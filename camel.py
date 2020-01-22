@@ -12,17 +12,17 @@ def display_banner():
 	""" Display program name in banner """
 	msg = 'AWSOME camelCaseGenerator PROGRAM'
 	stars = '*' * len(msg)
-	print(f'\n {stars} \n {msg} \n {stars}\n') 
+	print(f'\n {stars} \n {msg} \n {stars}\n')
 
 def instructions():
-    print("Enter a sentence to convert to camelCase")
+    print('Enter a sentence to convert to camelCase')
 
 def main():
-	display_banner()
-	instructions()
+    display_banner()
+    instructions()
     sentence = input('Enter your sentence: ')
-	output = camelcase(sentence)
-	print(output)
+    output = camelcase(sentence)
+    print(output)
 
 if __name__ == '__main__':
 	main()
